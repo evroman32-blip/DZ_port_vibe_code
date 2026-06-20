@@ -7,12 +7,16 @@
   <meta name="description" content="Я делаю сайты, интерфейсы и digital-проекты, которые выглядят как вайб, а работают как система." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Зерно / текстура бумаги -->
-  <div class="grain" aria-hidden="true"></div>
+  <!-- Фоновое свечение -->
+  <div class="bg-glow" aria-hidden="true">
+    <span class="glow glow--1"></span>
+    <span class="glow glow--2"></span>
+    <span class="glow glow--3"></span>
+  </div>
 
   <!-- Навигация -->
   <header class="nav">
@@ -218,29 +222,17 @@
         <span class="kicker">06 — Стек</span>
         <h2 class="section__title">Инструменты</h2>
       </div>
-      <div class="marquee reveal" aria-label="Инструменты: ChatGPT, Cursor, HTML CSS JS, React, Tailwind, Framer Motion, Figma, Tilda Webflow custom, Telegram Bots AI tools, Промпты">
-        <div class="marquee__track">
-          <span class="badge">ChatGPT</span>
-          <span class="badge">Cursor</span>
-          <span class="badge">HTML / CSS / JS</span>
-          <span class="badge">React</span>
-          <span class="badge">Tailwind</span>
-          <span class="badge">Framer Motion</span>
-          <span class="badge">Figma</span>
-          <span class="badge">Tilda / Webflow / custom</span>
-          <span class="badge">Telegram / Bots / AI tools</span>
-          <span class="badge">Промпты</span>
-          <span class="badge" aria-hidden="true">ChatGPT</span>
-          <span class="badge" aria-hidden="true">Cursor</span>
-          <span class="badge" aria-hidden="true">HTML / CSS / JS</span>
-          <span class="badge" aria-hidden="true">React</span>
-          <span class="badge" aria-hidden="true">Tailwind</span>
-          <span class="badge" aria-hidden="true">Framer Motion</span>
-          <span class="badge" aria-hidden="true">Figma</span>
-          <span class="badge" aria-hidden="true">Tilda / Webflow / custom</span>
-          <span class="badge" aria-hidden="true">Telegram / Bots / AI tools</span>
-          <span class="badge" aria-hidden="true">Промпты</span>
-        </div>
+      <div class="badges reveal">
+        <span class="badge">ChatGPT</span>
+        <span class="badge">Cursor</span>
+        <span class="badge">HTML / CSS / JS</span>
+        <span class="badge">React</span>
+        <span class="badge">Tailwind</span>
+        <span class="badge">Framer Motion</span>
+        <span class="badge">Figma</span>
+        <span class="badge">Tilda / Webflow / custom</span>
+        <span class="badge">Telegram / Bots / AI tools</span>
+        <span class="badge">Промпты</span>
       </div>
       <p class="stack__note reveal">
         Но если честно — главный инструмент не стек, а вкус, насмотренность
